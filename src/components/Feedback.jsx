@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import onlineDoctorImg from '../../assets/Online Doctor-cuate 1.png'
+import onlineDoctorImg from '../assets/Online Doctor-cuate 1.png'
 
 export default function Feedback({ feedbacks, setFeedbacks }) {
   const [formData, setFormData] = useState({
